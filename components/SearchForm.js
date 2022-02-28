@@ -6,7 +6,7 @@ export default function SearchForm() {
     const [book, setBook] = useState('')
     const [category, setCategory] = useState('all')
     const [filter, setFilter] = useState('relevance')
-    const apiKey = ('AIzaSyClxKjvYiWQKk7MFyVqld9eIrBUXmC1A2o')
+    const apiKey = ('there_was_my_key')
     const [endpoint, setEndpoint] = useState('')
     const { data: books, isPending, error } = useFetch(endpoint)
     const [numberOfBooks, setNumberOfBooks] = useState(null)
